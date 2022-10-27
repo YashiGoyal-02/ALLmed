@@ -193,8 +193,8 @@ section:nth-child(even){
 
 .services .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap:2rem;
+    grid-template-columns: 400px 1fr 1fr 1fr;
+    gap:5rem;
 }
 
 .services .box-container .box{
@@ -203,6 +203,7 @@ section:nth-child(even){
     box-shadow: var(--box-shadow);
     border:var(--border);
     padding: 2.5rem;
+    width: 400px;
 }
 
 .services .box-container .box i{
@@ -213,13 +214,13 @@ section:nth-child(even){
 
 .services .box-container .box h3{
     color: var(--black);
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding:1rem 0;
 }
 
 .services .box-container .box p{
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 2;
 }
 
@@ -325,23 +326,14 @@ section:nth-child(even){
     width: 100%;
 }
 
-.book .row form{
-    flex:1 1 45rem;
-    background: #fff;
-    border:var(--border);
-    box-shadow: var(--box-shadow);
-    text-align: center;
-    padding: 2rem;
-    border-radius: .5rem;
-}
 
-.book .row form h3{
+.book .row h3{
     color:var(--black);
     padding-bottom: 1rem;
     font-size: 3rem;
 }
 
-.book .row form .box{
+.book .row .box{
     width: 100%;
     margin:.7rem 0;
     border-radius: .5rem;
@@ -352,8 +344,10 @@ section:nth-child(even){
     padding: 1rem;
 }
 
-.book .row form .btn{
+.book .row .btn{
     padding:1rem 4rem;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .review .box-container{
