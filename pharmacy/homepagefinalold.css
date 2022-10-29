@@ -1,0 +1,115 @@
+#logo{
+float: left;
+margin-left: 20px;
+margin-top: 10px;
+width:220px;
+height:220px
+}
+
+p.heading{
+float:left;
+font-size: 5em;
+margin-top: 50px;
+margin-left: 250px;
+}
+
+hr{
+  height: 1.5px;
+  background-color: black;
+  border: none;
+}
+
+fixed-header{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    padding: 10px 0;
+    top: 2px;
+    font-size: 20px;
+}
+.fixed-header{
+  background: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+nav a:hover{
+    border-radius: 6px;
+    background-color: black;
+    margin: 0 auto;
+    box-shadow: black;
+}
+
+.container{
+	text-align: center;
+}
+
+.subtitle{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#product{
+	border: 3px solid black;
+	border-radius: 25px;
+	height: 12em;
+	width: 12em;
+}
+
+.name{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.price{
+	padding-top: 0px;
+}
+
+.btn-primary{
+border: 2px solid black;
+}
+
+.wishlist{
+	padding-left: 15px;
+}
+
+.fa-heart-o{
+	margin-left: 10px;
+	transform: scale(2,2);
+
+}
+
+.fa-heart-o:hover {
+  color: red;
+}
+
+.column {
+  float: left;
+  width: 27%;
+  height: 200px;
+}
+
+p {
+  font-size:20px;
+  font-weight:bold;
+}
+/*.navbar{
+	border: black;
+}
+.navbar .nav-item{
+	padding-left: 50px;
+}*/
+
+.mainbody{
+  /*border: 2px solid black;*/
+  background: #e6e6e6;
+  box-shadow: 1px 10px 10px 10px #888888;
+}
+.body{
+  background-color:#C9CCF2;
+}
