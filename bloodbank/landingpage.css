@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+}
+#content{
+    text-align: center;
+    padding-top: 15%;
+    /* text-shadow: 4px 15px 10px rgba(0,0,0,0.5),
+                 2px 5px 5px rgba(0,0,0,0.5),
+                 3px 5px 5px rgba(0,0,0,0.5); */
+}
+body{
+    background: url("https://wallpaperaccess.com/full/2381638.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+    font-family: 'Miriam Libre', sans-serif;
+    color: black;
+ /* {
+    background-image: linear-gradient(180deg, red, yellow);
+      } */
+}
+h3{
+    padding: 5px;
+    margin-top: 10px;
+}
+hr{
+    width: 250px;
+}
+#quote{
+    text-align : center;
+    background: rgba(0,0,0,0.6);
+    color: #e3d0cf;
+    width: 400px;
+    padding: 25px;
+    margin-left: 32%;
+}
+i{
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: large;
+    color:#a1f0e8;
+}
+.spl{
+    color: black;
+}
